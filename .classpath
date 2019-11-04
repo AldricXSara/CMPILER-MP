@@ -6,5 +6,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Pat4008/Documents/GitHub/CMPILER-MP/antlr-4.7.2-complete.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

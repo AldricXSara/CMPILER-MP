@@ -1,7 +1,6 @@
-// Generated from Grammar.g4 by ANTLR 4.4
+// Generated from Grammar.g4 by ANTLR 4.7.2
 
 import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
@@ -16,660 +15,660 @@ public class GrammarBaseListener implements GrammarListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRelationalBool(@NotNull GrammarParser.RelationalBoolContext ctx) { }
+	@Override public void enterProgram(GrammarParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRelationalBool(@NotNull GrammarParser.RelationalBoolContext ctx) { }
+	@Override public void exitProgram(GrammarParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterConstantDeclaration(@NotNull GrammarParser.ConstantDeclarationContext ctx) { }
+	@Override public void enterFunction_declarations(GrammarParser.Function_declarationsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitConstantDeclaration(@NotNull GrammarParser.ConstantDeclarationContext ctx) { }
+	@Override public void exitFunction_declarations(GrammarParser.Function_declarationsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgram(@NotNull GrammarParser.ProgramContext ctx) { }
+	@Override public void enterStatement(GrammarParser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgram(@NotNull GrammarParser.ProgramContext ctx) { }
+	@Override public void exitStatement(GrammarParser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLogical_ope(@NotNull GrammarParser.Logical_opeContext ctx) { }
+	@Override public void enterVardecl_list(GrammarParser.Vardecl_listContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLogical_ope(@NotNull GrammarParser.Logical_opeContext ctx) { }
+	@Override public void exitVardecl_list(GrammarParser.Vardecl_listContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrintFactorPlusExpr(@NotNull GrammarParser.PrintFactorPlusExprContext ctx) { }
+	@Override public void enterVariableDeclaration(GrammarParser.VariableDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrintFactorPlusExpr(@NotNull GrammarParser.PrintFactorPlusExprContext ctx) { }
+	@Override public void exitVariableDeclaration(GrammarParser.VariableDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRelational_ope(@NotNull GrammarParser.Relational_opeContext ctx) { }
+	@Override public void enterArrayDeclaration(GrammarParser.ArrayDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRelational_ope(@NotNull GrammarParser.Relational_opeContext ctx) { }
+	@Override public void exitArrayDeclaration(GrammarParser.ArrayDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNum_factor(@NotNull GrammarParser.Num_factorContext ctx) { }
+	@Override public void enterVarIdentifierInDeclaration1(GrammarParser.VarIdentifierInDeclaration1Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNum_factor(@NotNull GrammarParser.Num_factorContext ctx) { }
+	@Override public void exitVarIdentifierInDeclaration1(GrammarParser.VarIdentifierInDeclaration1Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrint(@NotNull GrammarParser.PrintContext ctx) { }
+	@Override public void enterVarIdentifierInDeclaration2(GrammarParser.VarIdentifierInDeclaration2Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrint(@NotNull GrammarParser.PrintContext ctx) { }
+	@Override public void exitVarIdentifierInDeclaration2(GrammarParser.VarIdentifierInDeclaration2Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDo_while_statement(@NotNull GrammarParser.Do_while_statementContext ctx) { }
+	@Override public void enterArray_size(GrammarParser.Array_sizeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDo_while_statement(@NotNull GrammarParser.Do_while_statementContext ctx) { }
+	@Override public void exitArray_size(GrammarParser.Array_sizeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrint_factor_boolean(@NotNull GrammarParser.Print_factor_booleanContext ctx) { }
+	@Override public void enterData_type(GrammarParser.Data_typeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrint_factor_boolean(@NotNull GrammarParser.Print_factor_booleanContext ctx) { }
+	@Override public void exitData_type(GrammarParser.Data_typeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterBool(@NotNull GrammarParser.BoolContext ctx) { }
+	@Override public void enterFunction_declaration(GrammarParser.Function_declarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitBool(@NotNull GrammarParser.BoolContext ctx) { }
+	@Override public void exitFunction_declaration(GrammarParser.Function_declarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMainFunction(@NotNull GrammarParser.MainFunctionContext ctx) { }
+	@Override public void enterParameters(GrammarParser.ParametersContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMainFunction(@NotNull GrammarParser.MainFunctionContext ctx) { }
+	@Override public void exitParameters(GrammarParser.ParametersContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssignment_num_ope(@NotNull GrammarParser.Assignment_num_opeContext ctx) { }
+	@Override public void enterFunction_block(GrammarParser.Function_blockContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssignment_num_ope(@NotNull GrammarParser.Assignment_num_opeContext ctx) { }
+	@Override public void exitFunction_block(GrammarParser.Function_blockContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterWhile_statement(@NotNull GrammarParser.While_statementContext ctx) { }
+	@Override public void enterMainFunction(GrammarParser.MainFunctionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitWhile_statement(@NotNull GrammarParser.While_statementContext ctx) { }
+	@Override public void exitMainFunction(GrammarParser.MainFunctionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarAssignment(@NotNull GrammarParser.VarAssignmentContext ctx) { }
+	@Override public void enterExprFactor(GrammarParser.ExprFactorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarAssignment(@NotNull GrammarParser.VarAssignmentContext ctx) { }
+	@Override public void exitExprFactor(GrammarParser.ExprFactorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterArray_size(@NotNull GrammarParser.Array_sizeContext ctx) { }
+	@Override public void enterExpressionOnly(GrammarParser.ExpressionOnlyContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitArray_size(@NotNull GrammarParser.Array_sizeContext ctx) { }
+	@Override public void exitExpressionOnly(GrammarParser.ExpressionOnlyContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterReturn_statement(@NotNull GrammarParser.Return_statementContext ctx) { }
+	@Override public void enterExprFactorNumOpeExpr(GrammarParser.ExprFactorNumOpeExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitReturn_statement(@NotNull GrammarParser.Return_statementContext ctx) { }
+	@Override public void exitExprFactorNumOpeExpr(GrammarParser.ExprFactorNumOpeExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterArrayDeclaration(@NotNull GrammarParser.ArrayDeclarationContext ctx) { }
+	@Override public void enterExprNumOpeExpr(GrammarParser.ExprNumOpeExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitArrayDeclaration(@NotNull GrammarParser.ArrayDeclarationContext ctx) { }
+	@Override public void exitExprNumOpeExpr(GrammarParser.ExprNumOpeExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNewAssignment(@NotNull GrammarParser.NewAssignmentContext ctx) { }
+	@Override public void enterExpression_factor(GrammarParser.Expression_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNewAssignment(@NotNull GrammarParser.NewAssignmentContext ctx) { }
+	@Override public void exitExpression_factor(GrammarParser.Expression_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpression_factor(@NotNull GrammarParser.Expression_factorContext ctx) { }
+	@Override public void enterLogicalBool(GrammarParser.LogicalBoolContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpression_factor(@NotNull GrammarParser.Expression_factorContext ctx) { }
+	@Override public void exitLogicalBool(GrammarParser.LogicalBoolContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExprFactor(@NotNull GrammarParser.ExprFactorContext ctx) { }
+	@Override public void enterBool(GrammarParser.BoolContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExprFactor(@NotNull GrammarParser.ExprFactorContext ctx) { }
+	@Override public void exitBool(GrammarParser.BoolContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpressionOnly(@NotNull GrammarParser.ExpressionOnlyContext ctx) { }
+	@Override public void enterRelationalBool(GrammarParser.RelationalBoolContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpressionOnly(@NotNull GrammarParser.ExpressionOnlyContext ctx) { }
+	@Override public void exitRelationalBool(GrammarParser.RelationalBoolContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNum_ope(@NotNull GrammarParser.Num_opeContext ctx) { }
+	@Override public void enterNum_ope(GrammarParser.Num_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNum_ope(@NotNull GrammarParser.Num_opeContext ctx) { }
+	@Override public void exitNum_ope(GrammarParser.Num_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCode_block(@NotNull GrammarParser.Code_blockContext ctx) { }
+	@Override public void enterUnary_ope(GrammarParser.Unary_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCode_block(@NotNull GrammarParser.Code_blockContext ctx) { }
+	@Override public void exitUnary_ope(GrammarParser.Unary_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLogicalBool(@NotNull GrammarParser.LogicalBoolContext ctx) { }
+	@Override public void enterNum_factor(GrammarParser.Num_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLogicalBool(@NotNull GrammarParser.LogicalBoolContext ctx) { }
+	@Override public void exitNum_factor(GrammarParser.Num_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDecrementOrIncrement(@NotNull GrammarParser.DecrementOrIncrementContext ctx) { }
+	@Override public void enterRelational_ope(GrammarParser.Relational_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDecrementOrIncrement(@NotNull GrammarParser.DecrementOrIncrementContext ctx) { }
+	@Override public void exitRelational_ope(GrammarParser.Relational_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFor_assignment_statement(@NotNull GrammarParser.For_assignment_statementContext ctx) { }
+	@Override public void enterLogical_ope(GrammarParser.Logical_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFor_assignment_statement(@NotNull GrammarParser.For_assignment_statementContext ctx) { }
+	@Override public void exitLogical_ope(GrammarParser.Logical_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterUnary_ope(@NotNull GrammarParser.Unary_opeContext ctx) { }
+	@Override public void enterConstantDeclaration(GrammarParser.ConstantDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitUnary_ope(@NotNull GrammarParser.Unary_opeContext ctx) { }
+	@Override public void exitConstantDeclaration(GrammarParser.ConstantDeclarationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIf_statement(@NotNull GrammarParser.If_statementContext ctx) { }
+	@Override public void enterVarAssignment(GrammarParser.VarAssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIf_statement(@NotNull GrammarParser.If_statementContext ctx) { }
+	@Override public void exitVarAssignment(GrammarParser.VarAssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarIdentifierInDeclaration2(@NotNull GrammarParser.VarIdentifierInDeclaration2Context ctx) { }
+	@Override public void enterNewAssignment(GrammarParser.NewAssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarIdentifierInDeclaration2(@NotNull GrammarParser.VarIdentifierInDeclaration2Context ctx) { }
+	@Override public void exitNewAssignment(GrammarParser.NewAssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterScan(@NotNull GrammarParser.ScanContext ctx) { }
+	@Override public void enterDecrementOrIncrement(GrammarParser.DecrementOrIncrementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitScan(@NotNull GrammarParser.ScanContext ctx) { }
+	@Override public void exitDecrementOrIncrement(GrammarParser.DecrementOrIncrementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarIdentifierInDeclaration1(@NotNull GrammarParser.VarIdentifierInDeclaration1Context ctx) { }
+	@Override public void enterAssignmentWithNumOpe(GrammarParser.AssignmentWithNumOpeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarIdentifierInDeclaration1(@NotNull GrammarParser.VarIdentifierInDeclaration1Context ctx) { }
+	@Override public void exitAssignmentWithNumOpe(GrammarParser.AssignmentWithNumOpeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterParameters(@NotNull GrammarParser.ParametersContext ctx) { }
+	@Override public void enterAssignment_num_ope(GrammarParser.Assignment_num_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitParameters(@NotNull GrammarParser.ParametersContext ctx) { }
+	@Override public void exitAssignment_num_ope(GrammarParser.Assignment_num_opeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFunction_block(@NotNull GrammarParser.Function_blockContext ctx) { }
+	@Override public void enterAssignment_factor(GrammarParser.Assignment_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFunction_block(@NotNull GrammarParser.Function_blockContext ctx) { }
+	@Override public void exitAssignment_factor(GrammarParser.Assignment_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterActual_params(@NotNull GrammarParser.Actual_paramsContext ctx) { }
+	@Override public void enterFunctionCall(GrammarParser.FunctionCallContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitActual_params(@NotNull GrammarParser.Actual_paramsContext ctx) { }
+	@Override public void exitFunctionCall(GrammarParser.FunctionCallContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssignment_factor(@NotNull GrammarParser.Assignment_factorContext ctx) { }
+	@Override public void enterActual_params(GrammarParser.Actual_paramsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssignment_factor(@NotNull GrammarParser.Assignment_factorContext ctx) { }
+	@Override public void exitActual_params(GrammarParser.Actual_paramsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssignmentWithNumOpe(@NotNull GrammarParser.AssignmentWithNumOpeContext ctx) { }
+	@Override public void enterConditional_factor(GrammarParser.Conditional_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssignmentWithNumOpe(@NotNull GrammarParser.AssignmentWithNumOpeContext ctx) { }
+	@Override public void exitConditional_factor(GrammarParser.Conditional_factorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrintFactorPlusPrintFactor(@NotNull GrammarParser.PrintFactorPlusPrintFactorContext ctx) { }
+	@Override public void enterIf_statement(GrammarParser.If_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrintFactorPlusPrintFactor(@NotNull GrammarParser.PrintFactorPlusPrintFactorContext ctx) { }
+	@Override public void exitIf_statement(GrammarParser.If_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStatement(@NotNull GrammarParser.StatementContext ctx) { }
+	@Override public void enterConditional_block(GrammarParser.Conditional_blockContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStatement(@NotNull GrammarParser.StatementContext ctx) { }
+	@Override public void exitConditional_block(GrammarParser.Conditional_blockContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVariableDeclaration(@NotNull GrammarParser.VariableDeclarationContext ctx) { }
+	@Override public void enterCode_block(GrammarParser.Code_blockContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVariableDeclaration(@NotNull GrammarParser.VariableDeclarationContext ctx) { }
+	@Override public void exitCode_block(GrammarParser.Code_blockContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFunctionCall(@NotNull GrammarParser.FunctionCallContext ctx) { }
+	@Override public void enterWhile_statement(GrammarParser.While_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFunctionCall(@NotNull GrammarParser.FunctionCallContext ctx) { }
+	@Override public void exitWhile_statement(GrammarParser.While_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVardecl_list(@NotNull GrammarParser.Vardecl_listContext ctx) { }
+	@Override public void enterDo_while_statement(GrammarParser.Do_while_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVardecl_list(@NotNull GrammarParser.Vardecl_listContext ctx) { }
+	@Override public void exitDo_while_statement(GrammarParser.Do_while_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFunction_declaration(@NotNull GrammarParser.Function_declarationContext ctx) { }
+	@Override public void enterFor_statement(GrammarParser.For_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFunction_declaration(@NotNull GrammarParser.Function_declarationContext ctx) { }
+	@Override public void exitFor_statement(GrammarParser.For_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterConditional_block(@NotNull GrammarParser.Conditional_blockContext ctx) { }
+	@Override public void enterFor_assignment_statement(GrammarParser.For_assignment_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitConditional_block(@NotNull GrammarParser.Conditional_blockContext ctx) { }
+	@Override public void exitFor_assignment_statement(GrammarParser.For_assignment_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExprFactorNumOpeExpr(@NotNull GrammarParser.ExprFactorNumOpeExprContext ctx) { }
+	@Override public void enterReturn_statement(GrammarParser.Return_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExprFactorNumOpeExpr(@NotNull GrammarParser.ExprFactorNumOpeExprContext ctx) { }
+	@Override public void exitReturn_statement(GrammarParser.Return_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExprNumOpeExpr(@NotNull GrammarParser.ExprNumOpeExprContext ctx) { }
+	@Override public void enterScan(GrammarParser.ScanContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExprNumOpeExpr(@NotNull GrammarParser.ExprNumOpeExprContext ctx) { }
+	@Override public void exitScan(GrammarParser.ScanContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterScanThruArr(@NotNull GrammarParser.ScanThruArrContext ctx) { }
+	@Override public void enterScanThruArr(GrammarParser.ScanThruArrContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitScanThruArr(@NotNull GrammarParser.ScanThruArrContext ctx) { }
+	@Override public void exitScanThruArr(GrammarParser.ScanThruArrContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFor_statement(@NotNull GrammarParser.For_statementContext ctx) { }
+	@Override public void enterPrint(GrammarParser.PrintContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFor_statement(@NotNull GrammarParser.For_statementContext ctx) { }
+	@Override public void exitPrint(GrammarParser.PrintContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrintString(@NotNull GrammarParser.PrintStringContext ctx) { }
+	@Override public void enterPrintNewLine(GrammarParser.PrintNewLineContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrintString(@NotNull GrammarParser.PrintStringContext ctx) { }
+	@Override public void exitPrintNewLine(GrammarParser.PrintNewLineContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterData_type(@NotNull GrammarParser.Data_typeContext ctx) { }
+	@Override public void enterPrintString(GrammarParser.PrintStringContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitData_type(@NotNull GrammarParser.Data_typeContext ctx) { }
+	@Override public void exitPrintString(GrammarParser.PrintStringContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterConditional_factor(@NotNull GrammarParser.Conditional_factorContext ctx) { }
+	@Override public void enterPrintFactorPlusPrintFactor(GrammarParser.PrintFactorPlusPrintFactorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitConditional_factor(@NotNull GrammarParser.Conditional_factorContext ctx) { }
+	@Override public void exitPrintFactorPlusPrintFactor(GrammarParser.PrintFactorPlusPrintFactorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFunction_declarations(@NotNull GrammarParser.Function_declarationsContext ctx) { }
+	@Override public void enterPrintFactorPlusExpr(GrammarParser.PrintFactorPlusExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFunction_declarations(@NotNull GrammarParser.Function_declarationsContext ctx) { }
+	@Override public void exitPrintFactorPlusExpr(GrammarParser.PrintFactorPlusExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrintNewLine(@NotNull GrammarParser.PrintNewLineContext ctx) { }
+	@Override public void enterPrint_factor_boolean(GrammarParser.Print_factor_booleanContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrintNewLine(@NotNull GrammarParser.PrintNewLineContext ctx) { }
+	@Override public void exitPrint_factor_boolean(GrammarParser.Print_factor_booleanContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterEveryRule(@NotNull ParserRuleContext ctx) { }
+	@Override public void enterEveryRule(ParserRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitEveryRule(@NotNull ParserRuleContext ctx) { }
+	@Override public void exitEveryRule(ParserRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void visitTerminal(@NotNull TerminalNode node) { }
+	@Override public void visitTerminal(TerminalNode node) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void visitErrorNode(@NotNull ErrorNode node) { }
+	@Override public void visitErrorNode(ErrorNode node) { }
 }

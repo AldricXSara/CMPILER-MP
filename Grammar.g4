@@ -1,7 +1,11 @@
 grammar Grammar;
 
-program						: function_declarations main_function EOF;
+//program						: function_declarations main_function END_OF_FILE;
+program						: function_declarations main_function;
 function_declarations		: function_declaration*;
+
+WS: [ \t\r\n]+ -> skip;
+//COMMENT: ( '(*' *? '*)' ) -> skip;
 
 // Main Statements
 statement					
@@ -294,3 +298,4 @@ VARIABLE_IDENTIFIER				: [a-z]+[0-9]*;
 FUNCTION_IDENTIFIER				: [A-Z]+[0-9]*;
 
 HT_NL_CR						: [\t\n\r]+ -> skip ; // skip spaces, tabs, newlines
+END_OF_FILE 							: 'EOF';
