@@ -1,0 +1,71 @@
+some sample codeblocks
+
+//variable declarations and expressions:
+digeetz i = 0;
+barkada word;
+sabaw f = 1.1 + 1;
+i = 0+5;
+
+//print statements:
+allchat(digeetz); 
+allchatln("Hello World");
+allchat(1.4+sabaw);
+
+//scan statements:
+typehere(word);
+typehere(array#1); //input in array[1]
+
+//if else statements:
+ha(1 < 0){
+	//do something;
+}
+etonalang(1 == 0){
+	//do something;
+}
+hatdog{
+	allchat(1<0); //should return "nope" meaning false
+}
+
+//for loop:
+bestloopimo(digeetz i=0; i<10; i++){
+	ha(i<10){
+		//do something
+	}
+}
+
+//while loop:
+mehloopimo(i<10){
+	//do something;
+	i++;
+}
+
+//do loop:
+worstloopimo{
+	//do something;
+	i--;
+}mehloopimo(i>0)
+
+//main function:
+walangibabalik startHere(){
+	//do stuff;
+}
+
+//function declarations:
+digeetz function1(digeetz i){
+	uwina i+1;
+}
+
+barkada function2(){
+	barkada showthis = "Hello World";
+	uwina showthis;
+}
+
+walangibabalik function3(){
+	allchatln("Void function!");
+}
+
+//function calls and operations:
+allchatln(function3);
+digeetz j = function1(100);
+barkada wordz = function2;
+	
