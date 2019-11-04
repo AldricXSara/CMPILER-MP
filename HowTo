@@ -5,6 +5,7 @@ digeetz i = 0;
 barkada word;
 sabaw f = 1.1 + 1;
 i = 0+5;
+digeetz#5 array;
 
 //print statements:
 allchat(digeetz); 
