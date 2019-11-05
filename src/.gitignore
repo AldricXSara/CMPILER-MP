@@ -7,3 +7,15 @@
 /GrammarListener.java
 /GrammarParser.java
 /GrammarMainListener.java
+/GrammarArray.java
+/GrammarBaseVisitor.java
+/GrammarFunction.java
+/GrammarInterpreter.java
+/GrammarLanguage.java
+/GrammarLexerErrorListener.java
+/GrammarParserErrorListener.java
+/GrammarSemanticErrors.java
+/GrammarSymbol.java
+/GrammarValue.java
+/GrammarVisitor.java
+/GrammarParserListener.java

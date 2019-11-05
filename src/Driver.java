@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
@@ -10,11 +12,19 @@ public class Driver {
     public static void main(String[] args) throws Exception {
     	
         String fileName = "src/input.txt";
-        //Scanner
         CharStream cs = CharStreams.fromFileName(fileName);
-        GrammarLexer lexer = new GrammarLexer(cs);
-        CommonTokenStream tokens = new CommonTokenStream(lexer);
+        GrammarLanguage gl = new GrammarLanguage();
         
+        ArrayList<String> tokens = gl.tokenize(cs);
+        gl.parse();
+        
+        gl.showTokens();
+        
+        gl.showErrors();
+        
+        //ParseTree tree = parser.program(); // begin parsing at rule 'r'
+        //System.out.println(tree.toStringTree(parser)); // print LISP-style tree
+        /*
         //Scanner print
         System.out.println("Amount of tokens " + tokens.getNumberOfOnChannelTokens());
         for(int i=0; i< tokens.size(); i++) {
@@ -30,16 +40,18 @@ public class Driver {
         	System.out.println("Type: " + token2.getType());
         	System.out.println("Position: " + token2.toString());
         }
-       
+       */
         
         //Parser
-        GrammarParser parser = new GrammarParser(tokens);
-        ParseTree tree = parser.program();
+//        GrammarParser parser = new GrammarParser(tokens);
+//       ParseTree tree = parser.program();
 
         //Interpreter (Not functional yet)
         //GrammarMainListener listener = new GrammarMainListener();
         //ParseTreeWalker walker = new ParseTreeWalker();
         //walker.walk(listener,tree);
+        
+        
         
     }
 }

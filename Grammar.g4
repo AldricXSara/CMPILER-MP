@@ -1,7 +1,7 @@
 grammar Grammar;
 
-//program						: function_declarations main_function END_OF_FILE;
-program						: function_declarations main_function;
+//program					: function_declarations main_function END_OF_FILE;
+program						: function_declarations main_function END_OF_FILE;
 function_declarations		: function_declaration*;
 
 WS: [ \t\r\n]+ -> skip;
@@ -256,7 +256,7 @@ R_CBRACKET: 					'}';
 L_BRACKET: 						'[';
 R_BRACKET: 						']';
 ENUMERATION:					',';
-COMMENT_BLOCK:					'//' ->skip;
+COMMENT_BLOCK:					'/*'.*?'*/' ->skip;
 LINE_END: 						';';
 
 ADDITION_OPE					: '+';
@@ -294,8 +294,11 @@ FLOAT_LITERAL					: INTEGER_LITERAL? '.' [0-9]+ 'f'?;
 CHAR_LITERAL					: '\'' . '\'';
 STRING_LITERAL					: '"' .*? '"';
 BOOLEAN_LITERAL					: 'yep' | 'nope' ; 
-VARIABLE_IDENTIFIER				: [a-z]+[0-9]*;
-FUNCTION_IDENTIFIER				: [A-Z]+[0-9]*;
+VARIABLE_IDENTIFIER				: '_'?[a-z]+[0-9]*;
+FUNCTION_IDENTIFIER				: '_'? ALPHABET_LITERAL MIXED_LITERAL*;
+
+ALPHABET_LITERAL				: [a-z]|[A-Z];
+MIXED_LITERAL					: ALPHABET_LITERAL|[0-9]|'_';
 
 HT_NL_CR						: [\t\n\r]+ -> skip ; // skip spaces, tabs, newlines
-END_OF_FILE 							: 'EOF';
+END_OF_FILE 					: 'EOF';

@@ -1,6 +1,6 @@
 /*Convert this into your language rule syntax.*/
 
-digeetz MyFunction(digeetz x) {
+digeetz myFunction(digeetz x) {
 	digeetz add = x + 50 ++ 1; /*syntax error #1*/
 	
 	uwina int; //syntax error #2
