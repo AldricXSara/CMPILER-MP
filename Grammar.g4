@@ -1,7 +1,7 @@
 grammar Grammar;
 
 //program					: function_declarations main_function END_OF_FILE;
-program						: function_declarations main_function END_OF_FILE;
+program						: function_declarations main_function;
 function_declarations		: function_declaration*;
 
 WS: [ \t\r\n]+ -> skip;
@@ -219,6 +219,8 @@ scan_statement
 print_statement				
 	: PRINT OPEN_PAR (print_factor| expression | print_factor_boolean) CLOSE_PAR #Print
 	| PRINT_NL OPEN_PAR (print_factor| expression | print_factor_boolean) CLOSE_PAR #PrintNewLine
+	| PRINT OPEN_PAR (STRING_LITERAL ',' (expression | print_factor | print_factor_boolean)) CLOSE_PAR #PrintStringWithVariable
+	| PRINT_NL OPEN_PAR (STRING_LITERAL ',' (expression | print_factor | print_factor_boolean)) CLOSE_PAR #PrintNewLineStringWithVariable
 	;
  
 print_factor
@@ -290,11 +292,11 @@ RETURN							: 'uwina';
 VOID							: 'walangibabalik';
 
 INTEGER_LITERAL					: [0-9]+;
-FLOAT_LITERAL					: INTEGER_LITERAL? '.' [0-9]+ 'f'?;
+FLOAT_LITERAL					: INTEGER_LITERAL? '.'? [0-9]+? 'f'?;
 CHAR_LITERAL					: '\'' . '\'';
 STRING_LITERAL					: '"' .*? '"';
 BOOLEAN_LITERAL					: 'yep' | 'nope' ; 
-VARIABLE_IDENTIFIER				: '_'?[a-z]+[0-9]*;
+VARIABLE_IDENTIFIER				: '_'? ALPHABET_LITERAL MIXED_LITERAL*;
 FUNCTION_IDENTIFIER				: '_'? ALPHABET_LITERAL MIXED_LITERAL*;
 
 ALPHABET_LITERAL				: [a-z]|[A-Z];

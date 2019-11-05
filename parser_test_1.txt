@@ -1,6 +1,6 @@
 /*Convert this into your language rule syntax.*/
 
-walangbalikan starthere() {
+walangibabalik startHere() {
 	digeetz x = 0;
 	sabaw _veryWeirdIdentifier567 = 999.9f;
 	weh y = (5 > 4 AND yep) OR (false AND NOT(x==0));

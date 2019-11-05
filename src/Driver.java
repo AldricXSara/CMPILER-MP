@@ -20,6 +20,8 @@ public class Driver {
         
         gl.showTokens();
         
+        
+        
         gl.showErrors();
         
         //ParseTree tree = parser.program(); // begin parsing at rule 'r'
